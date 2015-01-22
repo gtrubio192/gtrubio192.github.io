@@ -1,0 +1,13 @@
+
+ body{
+ 	background-color: rgb(58,208,200);
+ }
+
+ #right{
+	z-index: 1;
+ }
+ #left{
+	z-index: 0;
+	display: none;
+	/*visibility: */
+ }
