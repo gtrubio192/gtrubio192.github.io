@@ -29,7 +29,7 @@ function onKeyUp(e) {
 function left(){
 	var animateMe = document.getElementById('right');
 	// console.log("animateMe: " + animateMe);
-	animateMe.src = "images/sharkcat.jpeg";
+	animateMe.src = "images/sharkcatCroppedLeft.jpeg";
 
 	var leftMargin = parseInt(animateMe.style.marginLeft);
 	if(!leftMargin) {
@@ -43,7 +43,7 @@ function left(){
 
 function right(){
 	var animateMe = document.getElementById('right');
-	animateMe.src = "images/sharkcatRight.jpeg";
+	animateMe.src = "images/sharkcatCroppedRight.jpeg";
 
 	var leftMargin = parseInt(animateMe.style.marginLeft);
 	if(Boolean(leftMargin) === false) {
@@ -56,7 +56,7 @@ function right(){
 // link broken
 function up(){
 	var animateMe = document.getElementById('right');
-	animateMe.src = "images/sharkcatUp.jpeg";
+	animateMe.src = "images/sharkcatCroppedUp.jpeg";
 	var topMargin = parseInt(animateMe.style.marginTop);
 	if(Boolean(topMargin) === false) {
 		topMargin = 0;
@@ -69,7 +69,7 @@ function up(){
 function down(){
 	var animateMe = document.getElementById('right');
 	//works
-	animateMe.src = "images/sharkcatDown.jpeg";
+	animateMe.src = "images/sharkcatCroppedDown.jpeg";
 	var bottMargin = parseInt(animateMe.style.marginTop);
 	if(Boolean(bottMargin) === false) {
 		bottMargin = 0;
