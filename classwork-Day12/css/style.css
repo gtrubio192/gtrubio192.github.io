@@ -1,7 +1,7 @@
 
  body{
  	background-color: rgb(58,208,200);
- 	background-image: url(images/ocean.jpg);
+ 	background-image: url("images/ocean.jpg");
  }
 
  #right{
