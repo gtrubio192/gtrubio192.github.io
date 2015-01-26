@@ -53,10 +53,10 @@ function right(){
 	animateMe.style.marginLeft = leftMargin+'px';
 	
 }
-
+// link broken
 function up(){
 	var animateMe = document.getElementById('right');
-	animateMe.src = "http://flipapicture.com/uploaded_images/222424_sharkcatRight.jpeg";
+	animateMe.src = "images/sharkcatUp.jpeg";
 	var topMargin = parseInt(animateMe.style.marginTop);
 	if(Boolean(topMargin) === false) {
 		topMargin = 0;
@@ -65,11 +65,11 @@ function up(){
 	animateMe.style.marginTop = topMargin+'px';
 	
 }
-
+// link broken
 function down(){
 	var animateMe = document.getElementById('right');
 	//works
-	animateMe.src = "http://www170.lunapic.com/editor/working/142195120686327?6009526011";
+	animateMe.src = "images/sharkcatDown.jpeg";
 	var bottMargin = parseInt(animateMe.style.marginTop);
 	if(Boolean(bottMargin) === false) {
 		bottMargin = 0;
