@@ -2,10 +2,12 @@
  body{
  	/*background-color: rgb(58,208,200);*/
  	background-image: url("http://cdn.c.photoshelter.com/img-get2/I0000ZofrRaUjeOc/fit=1000x750/surf-photography-under-water-wave.jpg");
+ 	background-repeat: no-repeat;
  }
 
  #right{
 	z-index: 1;
+	position: 
  }
  #left{
 	z-index: 0;
