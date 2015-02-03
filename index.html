@@ -24,6 +24,10 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -552,7 +556,9 @@
                             <h2>Lets Taco Bout It</h2>
                             <p class="item-intro text-muted">Chat away :)</p>
                             <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
-                            <iframe src="http://gtrubio192.github.io/projects/chatster/" frameborder="0"></iframe>
+                            <!-- <iframe src="http://gtrubio192.github.io/projects/chatster/" frameborder="0"></iframe> -->
+                          <!--   <iframe id="idIframe" src="projects/chatster/index.html" frameborder="0" width="500" height="500" onload="iframeLoaded()"></iframe> -->
+                            <iframe id="idIframe" src="projects/chatster/index.html" frameborder="0" width="500" height="400"></iframe>
                             <p>Coolest chat app eva, ya hear!?</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -645,6 +651,9 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <!-- Custom jQuery UI -->
+    <script src="js/jquery-ui-1.11.2.custom/external/jquery/jquery.js"></script>
+    <script src="js/jquery-ui-1.11.2.custom/jquery-ui.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -664,6 +673,18 @@
 
     <!-- My JS code -->
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+      function iframeLoaded() {
+          var iFrameID = document.getElementById('idIframe');
+          if(iFrameID) {
+                // here you can make the height, I delete it first, then I make it again
+                iFrameID.height = "";
+                iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+                iFrameID.width = "";
+                iFrameID.width = iFrameID.contentWindow.document.body.scrollWidth + "px";
+          }   
+      }
+    </script> 
 
 </body>
 

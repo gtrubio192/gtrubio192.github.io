@@ -873,3 +873,10 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+/*Custom CSS*/
+#idIframe{
+    margin: 15% 5% 15% 5%;
+    border: 2px dotted silver;
+    position: relative;
+
+}
