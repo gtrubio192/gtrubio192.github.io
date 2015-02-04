@@ -18,6 +18,14 @@ $(document).ready(function() {
 			}
 
 	});
+	// take input when user hits enter key
+	$('#chat-box').on('keypress', function(e){
+        if ( e.which == 13){
+        	onSearchButtonClick();
+        }
+        else
+        	return;
+    });
 
 	$('#submit').on('click', onSearchButtonClick);
 	// refresh listener
