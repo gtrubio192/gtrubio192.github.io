@@ -128,7 +128,7 @@ $(document).ready(function() {
 		}
 		// click and drag chatbox 
 		// $( ".row" ).draggable({ handle: ".panel-heading" });
-		$( ".panel-heading" ).draggable();
+//		$( ".panel-heading" ).draggable();
 
 	};
 
