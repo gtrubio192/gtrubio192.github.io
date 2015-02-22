@@ -230,11 +230,20 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+/* Custom */
+/*
+.nav>li:hover,
+.nav>li:focus{
+    background-color: red;   
+}
+*/
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+/*        background-color: transparent;*/
+        background-color: #222;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -265,7 +274,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(https://dl-web.dropbox.com/get/Photos/austin.jpg?_subject_uid=70132881&w=AACLnqlMU-QpxcHFQwmMvl1mOoWzTN4BbwEOepPJq9CqUw);
+    background-image: url(https://distilleryimage2-a.akamaihd.net/32b663e8d12f11e192ea12313b06ea11_7.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
