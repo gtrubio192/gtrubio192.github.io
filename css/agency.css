@@ -229,6 +229,14 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #fec503;
 }
+    .nav-icons{
+        position: relative;
+        top: 5px;
+    }
+    .nav-icons span{
+   
+        padding-right: 8px;
+    }
 
 /* Custom */
 /*
@@ -310,6 +318,7 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -332,7 +341,7 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-       -webkit-text-stroke: 3px black;
+        -webkit-text-stroke: 3px black;
 
     }
 }
