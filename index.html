@@ -43,28 +43,29 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Gabriel Rubio</a>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+<!--                <a class="navbar-brand page-scroll" href="#team">Gabriel Rubio</a>-->
                 
-                <p class="small nav-icons">
-                    <span>
-                        <a class="text-muted" href="mailto:gtrubio192@gmail.com">
-                            <i class="fa fa-envelope-o fa-3x"></i></a>
-                    </span>
-                    <span>
-                        <a class="text-muted" href="tel:5126441746">
-                        <i class="fa fa-phone-square fa-3x"></i></a>
-                    </span>
-                </p> 
-                           
-                <p class="small">
-                    
-                </p>
+              <ul class="list-inline small">
+                <li>
+                  <a class="navbar-brand page-scroll" href="#team">Gabriel Rubio</a>
+                </li>
+                <li>
+                  <a class="nav-icons text-muted" href="mailto:gtrubio192@gmail.com">
+                    <i class="fa fa-envelope-o fa-2x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-icons contact-icons text-muted" href="tel:5126441746">
+                    <i class="fa fa-phone-square fa-2x"></i>
+                  </a>
+                </li>
+              </ul> 
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -112,25 +113,40 @@
     <section id="services">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Gabe</h2>
-                    <h3 class="section-subheading text-muted">
-                      Born and raised in Austin, Texas (yes, he is indeed like the last of the Mohicans, or a fabled unicorn). <br>
-                      He enjoys learning new concepts and exploring the great outdoors. <br>
-                      In his spare time he creates inclredibly senseless games in JavaScript. <br><br>
-                      
-                      Working recently with national organizations and individuals as a freelance web developer, <br>
-                      with a track record of on-time and on-budget projects developing fullstack Javascript web applications.<br>
-                      Looking to work where he can bring immediate value and develop his skill-set further. 
-                      
-                    </h3>
+                <div class="col-lg-12 ">
+                    <div class="col-lg-4">
+                      <div class="huds text-center"><img width="45%" src="img/huds.png"></div>
+<!--
+                      <ul class="huds">
+                        <div><img width="25%" src="img/huds.png"></div>
+                        <div><img width="25%" src="img/huds.png"></div>
+                        <div><img width="25%" src="img/huds.png"></div>
+                        <div><img width="25%" src="img/huds.png"></div>
+                      </ul>
+-->
+                    </div>
+                    <div class="col-lg-8">
+                      <h2 class="section-heading ">About Gabe</h2>
+                    
+                      <h3 class=" section-subheading text-muted">
+                        <p>
+                          Gabe is a front-end developer and designer hailing from Austin, Texas - yes, he is indeed like the last of the Mohicans, or a fabled unicorn. 
+                          He thrives on creating interactive and intuitive digital experiences. 
+                          As he sharpens his skills in coding and design, the results are an ever growing showcase of how far he has come in developing fullstack Javascript web applications.
+                        </p>
+                        <p>
+                          His passion and talent are seen in the work he has done for clients including and not limited to 
+                          FWD.us, Texas Department of Transportation, and Total Roofing. 
+                          Through these experiences and with the helpful talent at The Iron Yard, Gabe has grown into a versatile developer and designer.
+                      </h3>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="portfolio" class="bg-light-gray portfolio-container">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -249,11 +265,11 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="team" class="contact-container">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center ">
-                    <h2 class="section-heading">Contact The (One Man) Team</h2>
+                    <h2 id="contact" class="section-heading white-text">Contact The (One Man) Team</h2>
                     <h3 class="section-subheading text-muted">
                         Mother tested, kid approved. 
                     </h3>
@@ -270,8 +286,8 @@
                 <div class="col-sm-12">
                     <div class="team-member">
                         <img src="https://distilleryimage4-a.akamaihd.net/bed0f84ed17411e182e122000a1e884c_7.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Gabe Rubio</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <h4 class="white-text">Gabe Rubio</h4>
+                        <p class="text-muted">Front-End Developer + Designer</p>
                         
                         <p>
                           <i class="fa fa-envelope-o"></i> 
@@ -309,6 +325,7 @@
                           </li>
                         </ul>
                       
+                      <span style="color: #fed136; font-size: 135px;">&#x2B22;</span>
                       <span style="color: #fed136; font-size: 135px;">&#x2B22;</span>
                       <span style="color: #fed136; font-size: 135px;">&#x2B22;</span>
                     </div>

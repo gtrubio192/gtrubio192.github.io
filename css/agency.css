@@ -3,6 +3,25 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+.white-text{
+  color: #fff !important;
+}
+.contact-container{
+	background-image: url(http://iplayinsandboxes.com/wp-content/themes/bootstrap/images/bg03.jpg);
+/*	height: 200px;*/
+	margin-bottom: 48px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.huds{
+  background-image: url("img/huds.png");
+}
+.huds img{
+  background-color: #222;
+  border-radius: 50%;
+  margin: 3px 3px;
+}
+
 
 body {
     overflow-x: hidden;
@@ -231,10 +250,9 @@ fieldset[disabled] .btn-xl.active {
 }
     .nav-icons{
         position: relative;
-        top: 5px;
+        top: -15px;
     }
     .nav-icons span{
-   
         padding-right: 8px;
     }
 
@@ -285,6 +303,8 @@ header {
     background-image: url(https://distilleryimage2-a.akamaihd.net/32b663e8d12f11e192ea12313b06ea11_7.jpg);
     background-position: center center;
     background-repeat: none;
+  	background-attachment: fixed;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -375,7 +395,10 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
-
+#portfolio{
+  border-top: 3px solid rgba(128, 128, 128, 0.4);
+  border-bottom: 5px solid rgb(34, 34, 34);;
+}
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -657,7 +680,9 @@ section h3.section-subheading {
     margin-bottom: 50px;
     text-align: center;
 }
-
+.team-member p{
+  color: #fff;
+}
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
@@ -771,6 +796,7 @@ ul.social-buttons li a {
     width: 40px;
     height: 40px;
     border-radius: 100%;
+    border: 2px solid #fff;
     font-size: 20px;
     line-height: 40px;
     outline: 0;
