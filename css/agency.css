@@ -16,7 +16,7 @@
 .huds{
   background-image: url("img/huds.png");
 }
-.huds img{
+.huds img {
   background-color: #222;
   border-radius: 50%;
   margin: 70px 3px;
@@ -24,12 +24,14 @@
   width: 120px;
   height: 120px;
 /*    margin:-60px 0 0 -60px;*/
-  -webkit-animation:spin 5s linear infinite;
+}
+
+.spin{
+    -webkit-animation:spin 5s linear infinite;
   -webkit-animation-direction: alternate;
   -moz-animation:spin 5s linear infinite;
   animation:spin 5s linear infinite;
 }
-
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
@@ -694,10 +696,26 @@ section h3.section-subheading {
 .team-member p{
   color: #fff;
 }
-.team-member img {
+#face {
     margin: 0 auto;
     border: 7px solid #fff;
 }
+.team-member .ship img  {
+    margin: 0 auto;
+    border: none;
+}
+
+.ship:hover,
+.ship:focus{
+  -webkit-animation:spin 5s linear infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation:spin 5s linear infinite;
+  animation:spin 5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 
 .team-member h4 {
     margin-top: 25px;
