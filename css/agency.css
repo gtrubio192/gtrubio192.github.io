@@ -59,14 +59,13 @@
   opacity: .7;
   position: relative;
   left: -264px;
-  
-/*
-  width: 90px !important;
-  height: 90px !important;
-*/
 }
 .overlay:hover{
   opacity: 1;
+}
+#about1{
+  position:absolute;
+  left: -135px;
 }
 
 body {
