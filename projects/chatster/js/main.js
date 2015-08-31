@@ -1,12 +1,11 @@
-   
-$(document).ready(function() {
+document).ready(function() {
 	// var name = prompt("Enter your user name: ");
 	// enter a valid name, hide all chat room
 
 	var name = '';
 	$('#chat-room').hide();
-	$('#login').on('click', 
-		function(){
+	$('#login').on('click',
+		unction(){
 			name = $('#login-text').val();
 			if(name == '')
 			{
@@ -29,18 +28,16 @@ $(document).ready(function() {
 
 	$('#submit').on('click', onSearchButtonClick);
 	// refresh listener
-	$('#refresh').on('click', 
-			function() { 
-				// alert("clicked refresh");
+	$('#refresh').on('click',
+			unction() {
+				/ alert("clicked refresh");
 				$('#chat-room').show();
 				$('#sign-in').hide();
-				location.reload(); 
-				
-			});
+				location.reload();
 
-	// status listener
-	$('a .status').on('click', 
-		function() {
+			};/ status listener
+	$('a .status').on('click',
+		function) {
 			var status = document.getElementById();
 			alert("status: " + status);
 			if(status == 'Away')
@@ -55,9 +52,9 @@ $(document).ready(function() {
 							like: '',
 							photo: ''
 						}
-					
+
 					},
-					function(message) {
+			ction(message) {
 						console.log("Posting: " + message);
 						// $('textarea').html('');
 						render(message);
@@ -82,9 +79,9 @@ $(document).ready(function() {
 					like: '',
 					photo: ''
 				}
-			
+
 			},
-			function(message) {
+			functioessage) {
 				console.log("Posting: " + message);
 				// $('textarea').html('');
 				render(message);
@@ -93,8 +90,8 @@ $(document).ready(function() {
 		);
 		$('#chat-box').val('');
 	}
-	
-	var getMessages = function() {
+
+	var getMessages = unction() {
 		$.get(
 			// 'http://tiny-pizza-server.herokuapp.com/collections/austintime',
 			'https://kate-gabe-chat.herokuapp.com/chats.json',
@@ -126,20 +123,17 @@ $(document).ready(function() {
 			}
 
 		}
-		// click and drag chatbox 
-		// $( ".row" ).draggable({ handle: ".panel-heading" });
+		// click and drag chatbox
+		// $( ".row" ).dragable({ handle: ".panel-heading" });
 //		$( ".panel-heading" ).draggable();
 
 	};
 
 
-	
-	// var now = timeStamp();
+
+	// var now = timeStap();
 	// var firstPass = 1;
 	getMessages();
-	setInterval( getMessages, 1000);
+	setInterval( getMessages, 5000);
 
 });
-
-
-
