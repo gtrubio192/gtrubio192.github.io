@@ -358,11 +358,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    margin-top:
     text-align: center;
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/header3.png);
-    background-position: center center;
+    background-position: 50% 23%;
     background-repeat: none;
   	background-attachment: fixed;
 
