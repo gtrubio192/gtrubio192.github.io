@@ -1,4 +1,4 @@
-document).ready(function() {
+document.ready(function() {
 	// var name = prompt("Enter your user name: ");
 	// enter a valid name, hide all chat room
 
