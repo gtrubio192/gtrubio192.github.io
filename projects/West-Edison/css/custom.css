@@ -387,6 +387,35 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 
 }
 
+/* Modal */
+body.no-scroll, html.no-scroll {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body, html {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#mask {
+    Z-INDEX: 9000; POSITION: fixed; BACKGROUND-COLOR: rgb(105,105,105); DISPLAY: none; TOP: 0px; LEFT: 0px; bottom: 0; right:0;
+}
+#boxes .window {
+    Z-INDEX: 9999; POSITION: fixed; PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; WIDTH: 640px; PADDING-RIGHT: 20px; DISPLAY: none; HEIGHT: 385px; PADDING-TOP: 20px
+}
+#boxes #dialog {
+    PADDING-BOTTOM: 10px; BACKGROUND-COLOR: rgba(96, 136, 39, .9); PADDING-LEFT: 10px; WIDTH: 640px; PADDING-RIGHT: 10px; HEIGHT: 385px; PADDING-TOP: 10px
+}
+
+
+.modal-text {
+    color: white; font-weight: bold; text-align: center;
+}
+.bold {
+    font-weight: bold;
+}
+
 /*
 NO MORE TABLES!! ;)
 */
