@@ -5,13 +5,15 @@ $(document).ready(function() {
         //launch it
         launchWindow('#dialog');
     }
+    else {
+      allowScroll();
+    }
 
     //if yes button is clicked
     $('.window #yes').click(function () {
         $('#mask').hide();
         $('.window').hide();
-        $('body').removeClass('no-scroll');
-        $('html').removeClass('no-scroll');
+        allowScroll();
         //then set the cookie, so next time the modal won't be displaying again.
         createCookie('hasLaunch', 1, 365);
     });
@@ -25,6 +27,11 @@ $(document).ready(function() {
     });
 
 });
+
+function allowScroll() {
+  $('body').removeClass('no-scroll');
+  $('html').removeClass('no-scroll');
+}
 
 function setModal() {
 
