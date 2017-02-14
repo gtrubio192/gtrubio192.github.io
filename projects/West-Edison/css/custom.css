@@ -409,13 +409,34 @@ body, html {
 }
 
 #mask {
-    Z-INDEX: 9000; POSITION: fixed; BACKGROUND-COLOR: rgb(105,105,105); DISPLAY: none; TOP: 0px; LEFT: 0px; bottom: 0; right:0;
+    z-index: : 9000;
+		position: fixed;
+		background-color: rgb(105,105,105);
+		display: none;
+		top: 0px;
+		left: 0px;
+		bottom: 0;
+		right:0;
 }
 #boxes .window {
-    Z-INDEX: 9999; POSITION: fixed; PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; WIDTH: 640px; PADDING-RIGHT: 20px; DISPLAY: none; HEIGHT: 385px; PADDING-TOP: 20px
+    z-index: 9999;
+		position: fixed;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		width: 640px;
+		padding-right: 20px;
+		display: none;
+		height: 385px;
+		padding-top: 20px
 }
 #boxes #dialog {
-    PADDING-BOTTOM: 10px; BACKGROUND-COLOR: rgba(96, 136, 39, .9); PADDING-LEFT: 10px; WIDTH: 640px; PADDING-RIGHT: 10px; HEIGHT: 385px; PADDING-TOP: 10px
+    padding-bottom: 10px;
+		background-color: rgba(96, 136, 39, .9);
+		padding-left: 10px;
+		width: 640px;
+		padding-right: 10px;
+		height: 385px;
+		padding-top: 10px
 }
 
 

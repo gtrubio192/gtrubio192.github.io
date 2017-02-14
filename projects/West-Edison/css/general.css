@@ -187,11 +187,16 @@ width: 50px;
 
 .tworow{margin-top: 90px;}
 
+.social-list {
+	padding: 0;
+}
+
 .social {
 	font-size: 30px;
 	text-decoration: none;
 	list-style-type: none;
 	color: #1abc9c;
+	display: inline-block;
 }
 
 .social > a:hover {
