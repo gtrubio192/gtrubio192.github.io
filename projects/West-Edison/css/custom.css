@@ -45,6 +45,16 @@
 	margin-top: 0px;
 }
 
+/* Map Items */
+.map-overlay {
+   background:transparent;
+   position:relative;
+   width:400px;
+   height:300px; /* your iframe height */
+   top:300px;  /* your iframe height */
+   margin-top:-300px;  /* your iframe height */
+}
+
 /* Header  */
 
 #header{
