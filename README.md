@@ -1,2 +1,2 @@
 # gtrubio192.github.io
-github page for guessing game
+Portfolio of latest and greatest projects by Gabe Rubio
