@@ -8,8 +8,10 @@
   color: #fff !important;
 }
 .contact-container{
-	background-image: url(http://iplayinsandboxes.com/wp-content/themes/bootstrap/images/bg03.jpg);
-/*	height: 200px;*/
+  background-color: #222;
+  background-image: url(../img/map-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
 	margin-bottom: 48px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -1028,5 +1030,45 @@ body {
     margin: 15% 5% 15% 5%;
     border: 2px dotted silver;
     position: relative;
+}
+.img-responsive {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+}
+.portfolio-image {
+  box-shadow: 0 0 50px rgba(0,0,0,.6) inset;
+  border-radius: 0;
+}
 
+.portfolio-hover-content ul {
+  list-style: none;
+  display: block;
+  text-align: left;
+  margin-top: -20px;
+}
+
+.grid-list .screen span:before {
+    content: attr(data-text);
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    line-height: 26px;
+    letter-spacing: -.5px;
+}
+.grid-list .screen span i, article figure span i {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #ff5f57;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+.grid-list .screen span i:nth-child(2), article figure span i:nth-child(2) {
+    left: 26px;
+    background-color: #ffbd2e;
 }
